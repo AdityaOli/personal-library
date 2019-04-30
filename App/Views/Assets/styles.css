@@ -1,0 +1,32 @@
+.card {
+  width: 250px;
+  text-align: center;
+  margin: 0 auto; 
+}
+
+input {
+  margin-left: 10px;
+}
+
+h1,h3 {
+  text-align: center;
+}
+main{
+  text-align: center;
+}
+
+#books-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+  background-color: lightgreen;
+}
